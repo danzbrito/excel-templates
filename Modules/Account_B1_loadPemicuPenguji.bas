@@ -61,11 +61,11 @@ SearchDirection:=xlPrevious).Row
     
     MainWS.UsedRange.Replace What:="COUNTA($H$29:$H$30))", Replacement:="COUNTA($H$29:$H$31))", LookAt:= _
     xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
-    FormulaVersion:=xlReplaceFormula2
+    FormulaVersion:=xlReplaceFormula
     
     Lv2WS.UsedRange.Replace What:="!#REF!", Replacement:="!$L$34", LookAt:= _
     xlPart, SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
-    FormulaVersion:=xlReplaceFormula2
+    FormulaVersion:=xlReplaceFormula
 
 '============================Copy Data Pemicu to other Sheet to remove Formula=============================
 
