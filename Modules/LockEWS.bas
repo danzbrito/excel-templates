@@ -154,7 +154,7 @@ Worksheets("MAIN LEVEL").Unprotect ThisWorkbook.Names("password").Value
 End Sub
 Sub auto_close()
 
-pemicupenguji.Name = Sheets("DATA PEMICU").Range("M11").Value & "_" & Sheets("DATA PENGUJI").Range("M10").Value
+pemicupenguji.Name = Sheets("DATA PEMICU").Range("T11").Value & "_" & Sheets("DATA PENGUJI").Range("T10").Value
 
 End Sub
 Sub unlockall()
